@@ -1,0 +1,181 @@
+<html>
+<head>
+<title>
+svg
+</title>
+<style>
+label,input,select,button
+{
+font-size:40;
+border-style:3px solid black;
+margin-right:10px;
+}
+input
+{
+width="600px";
+
+}
+
+
+h1
+{
+font-size:60;
+}
+.cu
+{
+vertical-align:top;
+margin-right:50px;
+display:inline-block;
+
+}
+textarea
+{
+width:500px;
+height:300px;
+}
+legend
+{
+font-size:100px;
+}
+input[type="radio"], input[type="checkbox"]
+{
+transform:scale(2);
+margin:10px;
+}
+
+input[type="date"]
+{
+margin-right:50px;
+}
+
+
+
+textarea::placeholder
+{
+font-size:25px;
+}
+
+input[type="image"]
+{
+width:400px;
+height:300px;
+}
+.bcpl
+{
+vertical-align:top;
+
+font-size:80px;
+text-decoration:underline;
+
+}
+select
+{
+width:400px;
+height:60px;
+}
+
+
+</style>
+</head>
+<body>
+<form>
+<fieldset>
+<legend>AYAAN HANDADI</legend>
+
+<p>
+<label for="user_name">Enter your name</label>
+<input type="text" id="user_name" name="text">
+</p>
+
+
+<p>
+<label for="user_text">Enter Your Father Name:</label>
+<input type="text" id="user_text" name="text">
+</p>
+
+
+<p>
+<label for="user_password">Enter Your Password:</label>
+<input type="password" id="user_password" name="password">
+</p>
+
+<p>
+<label for="user_email>Enter Your Email:</label>
+<input type"Email" id="user_email" name="email">
+</p>
+
+<h1>Select Your Gender</h1>
+<p class="target">
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender">
+</p>
+<p class="target">
+
+<label for="female">Female</label>
+<input type="radio" id="female" name="gender">
+</p>
+<p class="target">
+<label for="others">Others</label>
+<input type="radio" id="others" name="gender">
+</p>
+<h1>Select languages That You Know</h1>
+<p>
+<label for="hindi">Hindi</label>
+<input type="checkbox" id="hindi" name="language">
+</p>
+<p>
+<label for="English">English</label>
+<input type="checkbox" id="English" name="language">
+<p>
+<label for="telugu">Telugu</label>
+<input type="checkbox" id="telugu" name="language">
+</p>
+<p>
+<label for="arabic">Arabic</label>
+<input type="checkbox"  id="arabic" name="language">
+</p>
+
+<p>
+<label for="user_date">Date Of Birth:</label>
+<input type="date" id="user_date" name="date">
+</p>
+<p>
+<label for="time">Select Time:</label>
+<input type="time" id="time" name="time">
+</p>
+
+<p>
+<label for="user_address" class="cu">Enter Your Address:</label>
+<textarea id="user_address" name="address" placeholder="Enter your address here...."></textarea>
+</p>
+<p>
+<label for="user_file">Select Your File:   </label>
+<input type="file" id="user_file" name="file">
+</p>
+
+<label class="bcpl" >C Programing</label>
+<p>
+<input type="image" src="c.jpg" id="image" name="image" alt="image">
+</p>
+<p>
+<label for="programming_language"><b>Favourite Programming Language:</b></label>
+<select id="programming_language" name="programming">
+<option value="c">c language</option>
+<option value="python">python</option>
+<option value="java">java</option>
+<option value="c++">c++</option>
+</select>
+</p>
+<p>
+<label for="submit">Submit</label>
+<input type"submit" id="submit" name="submit" value="submit">
+</p>
+
+<button>submit</button>
+
+
+
+</fieldset>
+</form>
+</body>
+</html>
